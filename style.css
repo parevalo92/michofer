@@ -570,7 +570,7 @@ header .navbar {
     }
 
     .navbar #menu-open-button {
-       color: var(--white-color);
+       color: var(--dark-color);
     }
 
     .navbar .nav-menu {
@@ -687,4 +687,5 @@ header .navbar {
         flex-direction: column;
         gap: 20px;
     }
+
 }
