@@ -60,7 +60,7 @@ console.log(textToChange);
 
 langButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    fetch(`../lang/${button.dataset.language}.json`)
+    fetch(`./lang/${button.dataset.language}.json`)
       .then(res => res.json())
       .then(data => {
         textToChange.forEach((el) => {
@@ -71,4 +71,5 @@ langButtons.forEach((button) => {
         })
       })
   })
+
 })
