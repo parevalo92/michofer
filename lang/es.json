@@ -1,0 +1,42 @@
+{
+    "header": {
+        "home-menu": "Inicio",
+        "about-menu": "Sobre nosotros",
+        "services-menu": "Servicios",
+        "testimonials-menu": "Testimonios",
+        "gallery-menu": "Galeria",
+        "contact-menu": "Contactanos"
+    },
+
+    "hero": {
+        "hero-title": "Nombre de la compañia",
+        "hero-subtitle": "Tu viaje, más que transporte: una experiencia VIP",
+        "hero-description": "Disfruta del lujo, la comodidad y la seguridad en cada traslado. Con nuestra plataforma, alquilas vehículos exclusivos o pagas por minutos de viaje en autos de primera clase."
+    },
+
+    "hero-botton": {
+        "order-now": "Ordena Ahora",
+        "contact-us": "Escribenos"
+    },
+
+    "about-section": {
+        "ab-title": "Sobre nosotros",
+        "ab-description": "“Una nueva forma de moverte” Somos una empresa de movilidad premium diseñada para quienes buscan más que solo transporte. Nuestro servicio combina puntualidad, elegancia y tecnología para ofrecerte traslados únicos, con vehículos de alto nivel y conductores altamente capacitados."
+    },
+
+    "our-services": {
+        "os-title": "Nuestros Servicios",
+        "os-title0": "Confiable",
+        "os-description0": "Alquiler de vehículos premium: Elige entre nuestra flota de autos de lujo, SUV ejecutivas y sedanes exclusivos.",
+        "os-title1": "Paga facil",
+        "os-description1": "⏱️ Pago por minutos de viaje: Traslados cortos o largos, pagas únicamente por el tiempo usado.",
+        "os-title2": "VIP",
+        "os-description2": "👨‍✈️ Conductores profesionales: Personal capacitado en atención VIP y seguridad.",
+        "os-title3": "Facil Reserva",
+        "os-description3": "🌐 Reservas digitales: Todo desde la app, sin complicaciones.",
+        "os-title4": "Servicio",
+        "os-description4": "Descripcion del servicio",
+        "os-title5": "Reserva",
+        "os-description5": "Descripcion del servicio"
+    }
+}

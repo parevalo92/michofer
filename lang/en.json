@@ -1,0 +1,42 @@
+{
+    "header": {
+        "home-menu": "Home",
+        "about-menu": "About Us",
+        "services-menu": "Services",
+        "testimonials-menu": "Testimonials",
+        "gallery-menu": "Gallery",
+        "contact-menu": "Contact Us"
+    },
+
+    "hero": {
+        "hero-title": "Company Name",
+        "hero-subtitle": "Your journey, more than transport: a VIP experience",
+        "hero-description": "Enjoy luxury, comfort, and safety on every ride. With our platform, you can rent exclusive vehicles or pay by the minute for first-class travel."
+    },
+
+    "hero-botton": {
+        "order-now": "Order Now",
+        "contact-us": "Write to Us"
+    },
+
+    "about-section": {
+        "ab-title": "About Us",
+        "ab-description": "“A new way to move” We are a premium mobility company designed for those who seek more than just transport. Our service combines punctuality, elegance, and technology to offer you unique rides, with high-end vehicles and highly trained drivers."
+    },
+
+    "our-services": {
+        "os-title": "Our Services",
+        "os-title0": "Reliable",
+        "os-description0": "Premium vehicle rentals: Choose from our fleet of luxury cars, executive SUVs, and exclusive sedans.",
+        "os-title1": "Easy Payment",
+        "os-description1": "⏱️ Pay by the minute: For short or long trips, you only pay for the time you use.",
+        "os-title2": "VIP",
+        "os-description2": "👨‍✈️ Professional drivers: Staff trained in VIP service and safety.",
+        "os-title3": "Easy Booking",
+        "os-description3": "🌐 Digital reservations: Everything from the app, hassle-free.",
+        "os-title4": "Service",
+        "os-description4": "Service description",
+        "os-title5": "Booking",
+        "os-description5": "Service description"
+    }
+}
