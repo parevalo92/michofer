@@ -337,7 +337,7 @@ header .navbar {
 
 .trust-section {
     padding: 120px 0;
-    background: #aeecae;
+    background: #adb7df;
 }
 
 .trust-section .trust-content {
@@ -799,7 +799,7 @@ header .navbar {
     flex-direction: column;  /* Apila los títulos y las cards verticalmente */
     align-items: center;     /* Centra el contenido horizontalmente */
     text-align: center;
-  }
+     }
 
     .about-section .about-image-wrapper .about-image {
         width: 100%;
@@ -860,5 +860,9 @@ header .navbar {
     .footer-section .section-content {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .about-section .section-content{
+        flex-direction: column;
     }
 }
