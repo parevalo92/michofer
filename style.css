@@ -381,6 +381,8 @@ header .navbar {
   margin: 1rem auto;
   perspective: 1000px;
   cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil normal */
 }
 
 .card-inner {
@@ -391,7 +393,7 @@ header .navbar {
   transform-style: preserve-3d;
 }
 
-.card:hover .card-inner {
+.card.flipped .card-inner {
   transform: rotateY(180deg);
 }
 
@@ -422,8 +424,26 @@ header .navbar {
   padding: 25px;
 }
 
+.card:hover, .card.flipped {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+    transform: translateY(-5px); /* Pequeña elevación */
+}
 
+#card1 {
+      background-image: url(img/card1.png);   
+}
 
+#card2 {
+      background-image: url(img/card2.png);   
+}
+
+#card3 {
+      background-image: url(img/card3.png);   
+}
+
+#card4 {
+      background-image: url(img/card4.png);   
+}
 
 /* Services Section */
 
@@ -468,6 +488,36 @@ header .navbar {
 
 .services-section .services-list .services-item .text {
     font-size: var(--font-size-m);
+}
+
+.services-section .services-list .services-item:last-child {
+            width: 100%; /* Ocupa todo el ancho disponible */
+            max-width: 500px; /* Limita el ancho del ítem para que no se estire demasiado */
+            margin-top: 50px; /* Separación de la fila de arriba */
+            margin-left: auto; /* Centrado horizontal */
+            margin-right: auto; /* Centrado horizontal */
+        }
+
+#services1 {
+    background-color: #94a5e4;
+}
+
+.apply-now-btn {
+    margin-top: 1.5rem;
+    padding: 10px 26px;
+    border: 2px solid transparent;
+    color: var(--white-color);
+    border-radius: var(--border-radius-m);
+    background: var(--dark-color);
+    font-weight: var(--font-weight-medium);
+    transition: 0.3s ease;
+    border-color: var(--white-color);
+}
+
+.apply-now-btn:hover {
+    color: var(--primary-color);
+    border-color: transparent;
+    background: var(--secondary-color);
 }
 
 /* Testimonials sectio styling */
@@ -694,6 +744,8 @@ header .navbar {
     .services-section .services-list .services-item {
         width: calc(100% / 3 - 60px);
     }
+
+    
     
 }
 
@@ -832,6 +884,8 @@ header .navbar {
         align-items: center;
         flex-direction: column-reverse;
     }
+
+    
 
 
 }

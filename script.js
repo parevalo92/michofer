@@ -72,3 +72,29 @@ langButtons.forEach((button) => {
       })
   })
 })
+
+
+// Cards mobile efect
+
+document.addEventListener('DOMContentLoaded', function() {
+        // Selecciona todas las tarjetas
+        const cards = document.querySelectorAll('.card');
+
+        cards.forEach(card => {
+            // Usa el evento click, que funciona bien para toques en móvil
+            card.addEventListener('click', function() {
+                // 1. Quitar la clase 'flipped' de cualquier otra tarjeta abierta (para desvoltearla)
+                cards.forEach(otherCard => {
+                    // Solo desvoltear si no es la tarjeta que acabamos de tocar
+                    if (otherCard !== card && otherCard.classList.contains('flipped')) {
+                        otherCard.classList.remove('flipped');
+                    }
+                });
+
+                // 2. Alternar la clase 'flipped' en la tarjeta actual
+                // Si ya estaba volteada (flipped), se quita la clase (vuelve al frente).
+                // Si no estaba volteada, se añade la clase (se voltea).
+                card.classList.toggle('flipped');
+            });
+        });
+    });
