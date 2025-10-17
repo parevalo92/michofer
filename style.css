@@ -449,7 +449,7 @@ header .navbar {
 
 .services-section {
     color: var(--dark-color);
-    background: #BBC9FB;
+    background: var(--light-pink-color);
     padding: 50px 0 100px;
 }
 
@@ -518,6 +518,7 @@ header .navbar {
     color: var(--primary-color);
     border-color: transparent;
     background: var(--secondary-color);
+    font-size: 1rem;
 }
 
 /* Testimonials sectio styling */
@@ -733,6 +734,21 @@ header .navbar {
     color: var(--white-color);
 }
 
+.download-ourapp {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.appstorelogo {
+    width: 150px;
+    
+}
+
+.playstorelogo {
+    width: 150px;
+}
+
 /* Responsive media query code for max width 1024px */
 
 @media screen and (max-width: 1024px) {
@@ -918,5 +934,9 @@ header .navbar {
 
     .about-section .section-content{
         flex-direction: column;
+    }
+
+    .download-us {
+        margin-bottom: 6rem;
     }
 }
